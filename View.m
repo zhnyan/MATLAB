@@ -12,8 +12,6 @@ classdef View < handle
         text;
         modelObj;
         controlObj;
-    end
-    properties(Dependent)
         input;
     end 
     methods
